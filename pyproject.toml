@@ -22,6 +22,10 @@ version = { attr = "test_semantic.__version__" }
 version_variables = ["src/test_semantic/__init__.py:__version__"]
 version_source = "tag"
 upload_to_PyPI = false
+version_pattern = [
+    "README.md:rev: v{version}",
+    "docs/CONTRIBUTING.md:tryceratops, version {version}"
+]
 
 [semantic_release.branches.main]
 match = "(main|master)"
