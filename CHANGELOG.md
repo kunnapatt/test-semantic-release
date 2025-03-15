@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.1.1 (2025-03-15)
+
+### Bug Fixes
+
+- New function
+  ([`4345476`](https://github.com/kunnapatt/test-semantic-release/commit/4345476961d7dc50f64c27ca7c4e560564ebcce4))
+
+
 ## v0.1.0 (2025-03-15)
 
 ### Features
