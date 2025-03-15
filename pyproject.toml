@@ -1,0 +1,19 @@
+[project]
+name = "test-semantic"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "python-semantic-release>=9.21.0",
+]
+
+[project.scripts]
+test-semantic = "test_semantic:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.semantic_release]
+version_variables = ["src:test_semantic:__version__"]
