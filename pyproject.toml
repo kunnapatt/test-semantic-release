@@ -19,7 +19,10 @@ build-backend = "setuptools.build_meta"
 version = { attr = "test_semantic.__version__" }
 
 [tool.semantic_release]
-version_variables = ["src/test_semantic/__init__.py:__version__"]
+tag_format = "v{version}"
+version_variables = [
+    "src/test_semantic/__init__.py:__version__",
+]
 version_source = "tag"
 upload_to_PyPI = false
 version_pattern = [
