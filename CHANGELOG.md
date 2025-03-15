@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.1.2 (2025-03-15)
+
+### Bug Fixes
+
+- Config semantic
+  ([`852b6c2`](https://github.com/kunnapatt/test-semantic-release/commit/852b6c2790d2131a5e43e406b7eea6f2ffcb8c68))
+
+
 ## v0.1.1 (2025-03-15)
 
 ### Bug Fixes
